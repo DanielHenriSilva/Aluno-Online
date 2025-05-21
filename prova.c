@@ -124,7 +124,9 @@ int main()
                             break;
 
                         case 4:
-                            printf("Atividade Complementar\n");
+                            system("cls");
+                            printf("\tAtividade Complementar\n");
+                            printf("Voce Nao Possui Atividades Cadastradas");
                             scanf("%d", &escolhas);
                             break;
 
@@ -212,7 +214,9 @@ int main()
 
 
                         case 4:
-                            printf("Atividade Complementar\n");
+                            system("cls");
+                            printf("\t\tAtividade Complementar\n");
+                            printf("Voce Nao Possui Atividades Complementares\n");
                             scanf("%d", &escolhas);
                             break;
 
@@ -302,7 +306,9 @@ int main()
                             break;
 
                         case 4:
-                            printf("Atividade Complementar\n");
+                            system("cls");
+                            printf("\t\tAtividade Complementar\n");
+                            printf("Você nao Possui Atividades Cadastradas\n");
                             scanf("%d", &escolhas);
                             break;
 
@@ -328,6 +334,9 @@ int main()
             }
 
         case 3:
+
+
+        
             int novasenha;
             int novasenha1;
             system("cls");
