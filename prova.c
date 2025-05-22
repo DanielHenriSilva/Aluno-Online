@@ -100,14 +100,23 @@ int main()
 
                         case 2:
                             system("cls");
-                            printf("Notas, Frequencias, P.Ensino\n");
-                            printf("Disciplinas\t\t\t\t\tTurma\t1Bim\t2Bim\tMed.Bim\t 3Aval\tMed.Final    Sit.Final\n");
+                            printf("\tNotas, Frequencias, P.Ensino\n");
+                            printf("\nDisciplinas\t\t\t\t\tTurma\t1Bim\t2Bim\tMed.Bim\t 3Aval\tMed.Final    Sit.Final\n");
                             printf("Algebra Linear\t\t\t\t\tCC1MA\t9,00\t-\t-\t -\t-\t     -\n");
                             printf("Programacao De Software\t\t\t\tCC1MA\t9,50\t-\t-\t -\t-\t     -\n");
                             printf("Pensamento Computacional Para Cientista\t\tCC1MA\t8,00\t-\t-\t -\t-\t     -\n");
                             printf("Algoritmo e Codificacoes De Sistemas\t\tCC1MA\t9,10\t-\t-\t -\t-\t     -\n");
                             printf("Logica Digital\t\t\t\t\tCC1MA\t9,10\t-\t-\t -\t-\t     -\n");
                             printf("Negocios Digitais\t\t\t\tCC1MA\t8,00\t-\t-\t -\t-\t     -\n");
+
+                            printf("\n------ FALTAS ------\n");
+                            printf("DISCIPLINA\t\t\t\t\tJAN FEV MAR ABR MAI JUN JUL AGO SET OUT NOV DEZ\t%%\n");
+                            printf("ALGEBRA LINEAR\t\t\t\t\t-   -   -   -   -   -   -   -   -   -   -   -\t-\n");
+                            printf("PROGRAMACAO DE SOFTWARE\t\t\t\t-   3   0   2   -   -   -   -   -   -   -   -\t95\n");
+                            printf("PENSAMENTO COMPUTACIONAL PARA CIENTISTA\t\t-   0   0   2   -   -   -   -   -   -   -   -\t98\n");
+                            printf("ALGORITMO E CODIFICACAO DE SISTEMA\t\t-   0   0   0   -   -   -   -   -   -   -   -\t100\n");
+                            printf("LOGICA DIGITAL\t\t\t\t\t-   0   0   0   2   -   -   -   -   -   -   -\t98\n");
+                            printf("NEGOCIOS DIGITAIS\t\t\t\t-   0   0   0   -   -   -   -   -   -   -   -\t100\n");
                             scanf("%d", &escolhas);
                             break;
 
@@ -179,24 +188,34 @@ int main()
                             printf("Turno: Manha\t\t\t\t\t\t|     |       |                 |\n");
                             printf("Turma: CC1MA\t\t\t\t\t\t|      \\     /                  |\n");
                             printf("Data Nascimento: 18/10/2006\t\t\t\t|       `-~-'                   |\n");
-                            printf("Email: danielregoqq@gmail.com\t\t\t\t|                               |\n");
-                            printf("Telefone: 9192320604\t\t\t\t\t+-------------------------------+\n");
-                            printf("Cidade: Ananindeua\tUF: PA\t\t\t\t\t     Meramente Ilustrativo\n");
+                            printf("Email: danielrego@gmail.com\t\t\t\t|                               |\n");
+                            printf("Telefone: 9192990604\t\t\t\t\t+-------------------------------+\n");
+                            printf("Cidade: Ananindeua\tUF: PA\t\t\t\t      Meramente Ilustrativo\n");
                             printf("Endereco: Avenida Helio da Mota Gueiros, 135\n");
                             printf("Bairro: 40 Horas\n");
                             scanf("%d", &escolhas);
                             break;
 
                         case 2:
-                           system("cls");
-                            printf("Notas, Frequencias, P.Ensino\n");
-                            printf("Disciplinas\t\t\t\t\tTurma\t1Bim\t2Bim\tMed.Bim\t 3Aval\tMed.Final    Sit.Final\n");
+                            system("cls");
+                            printf("\tNotas, Frequencias, P.Ensino\n");
+                            printf("\nDisciplinas\t\t\t\t\tTurma\t1Bim\t2Bim\tMed.Bim\t 3Aval\tMed.Final    Sit.Final\n");
                             printf("Algebra Linear\t\t\t\t\tCC1MA\t8,50\t-\t-\t -\t-\t     -\n");
                             printf("Programacao De Software\t\t\t\tCC1MA\t8,50\t-\t-\t -\t-\t     -\n");
                             printf("Pensamento Computacional Para Cientista\t\tCC1MA\t8,60\t-\t-\t -\t-\t     -\n");
                             printf("Algoritmo e Codificacoes De Sistemas\t\tCC1MA\t8,80\t-\t-\t -\t-\t     -\n");
                             printf("Logica Digital\t\t\t\t\tCC1MA\t9,40\t-\t-\t -\t-\t     -\n");
                             printf("Negocios Digitais\t\t\t\tCC1MA\t8,00\t-\t-\t -\t-\t     -\n");
+
+                            printf("\n------ FALTAS ------\n");
+                            printf("DISCIPLINA\t\t\t\t\tJAN FEV MAR ABR MAI JUN JUL AGO SET OUT NOV DEZ\t%%\n");
+                            printf("ALGEBRA LINEAR\t\t\t\t\t-   -   -   -   -   -   -   -   -   -   -   -\t-\n");
+                            printf("PROGRAMACAO DE SOFTWARE\t\t\t\t-   0   2   2   -   -   -   -   -   -   -   -\t96\n");
+                            printf("PENSAMENTO COMPUTACIONAL PARA CIENTISTA\t\t-   2   2   0   -   -   -   -   -   -   -   -\t95\n");
+                            printf("ALGORITMO E CODIFICACAO DE SISTEMA\t\t-   3   0   3   -   -   -   -   -   -   -   -\t90\n");
+                            printf("LOGICA DIGITAL\t\t\t\t\t-   0   0   2   2   -   -   -   -   -   -   -\t95\n");
+                            printf("NEGOCIOS DIGITAIS\t\t\t\t-   3   0   3   -   -   -   -   -   -   -   -\t90\n");
+
                             scanf("%d", &escolhas);
                             break;
 
@@ -212,14 +231,12 @@ int main()
                             scanf("%d", &escolhas);
                             break;
 
-
                         case 4:
                             system("cls");
-                            printf("\t\tAtividade Complementar\n");
+                            printf("\tAtividade Complementar\n");
                             printf("Voce Nao Possui Atividades Complementares\n");
                             scanf("%d", &escolhas);
                             break;
-
 
                         case 5:
                             sair = 1;
@@ -278,20 +295,27 @@ int main()
                             scanf("%d", &escolhas);
                             break;
 
-
                         case 2:
                             system("cls");
-                            printf("Notas, Frequencias, P.Ensino\n");
-                            printf("Disciplinas\t\t\t\t\tTurma\t1Bim\t2Bim\tMed.Bim\t 3Aval\tMed.Final    Sit.Final\n");
+                            printf("\tNotas, Frequencias, P.Ensino\n");
+                            printf("\nDisciplinas\t\t\t\t\tTurma\t1Bim\t2Bim\tMed.Bim\t 3Aval\tMed.Final    Sit.Final\n");
                             printf("Estatistica e Probabilidade\t\t\tCC3TA\t10,00\t-\t-\t -\t-\t     -\n");
                             printf("Estrutura De Dados\t\t\t\tCC3TA\t10,00\t-\t-\t -\t-\t     -\n");
                             printf("Circuitos Logicos Digitais\t\t\tCC3TA\t10,00\t-\t-\t -\t-\t     -\n");
                             printf("Laboratorio De Sistemas Embarcados\t\tCC3TA\t10,00\t-\t-\t -\t-\t     -\n");
                             printf("Interface De Software\t\t\t\tCC3TA\t10,00\t-\t-\t -\t-\t     -\n");
                             printf("Sistemas Operacionais\t\t\t\tCC3TA\t10,00\t-\t-\t -\t-\t     -\n");
+
+                            printf("\n------ FALTAS ------\n");
+                            printf("DISCIPLINA\t\t\t\t\tJAN FEV MAR ABR MAI JUN JUL AGO SET OUT NOV DEZ\t%%\n");
+                            printf("ESTATISTICA E PROBABILIDADE\t\t\t-   -   -   -   -   -   -   -   -   -   -   -\t-\n");
+                            printf("ESTRUTURA DE DADOS\t\t\t\t-   0   0   0   -   -   -   -   -   -   -   -\t100\n");
+                            printf("CIRCUITOS LOGICOS DIGITAIS\t\t\t-   0   0   -   -   -   -   -   -   -   -   -\t100\n");
+                            printf("LABORATORIO DE SISTEMAS EMBARCADOS\t\t-   0   0   0   -   -   -   -   -   -   -   -\t100\n");
+                            printf("INTERFACE DE SOFTWARE\t\t\t\t-   0   0   -   -   -   -   -   -   -   -   -\t100\n");
+                            printf("SISTEMAS OPERACIONAIS\t\t\t\t-   0   0   -   -   -   -   -   -   -   -   -\t100\n");
                             scanf("%d", &escolhas);
                             break;
-
 
                         case 3:
                             system("cls");
@@ -307,8 +331,8 @@ int main()
 
                         case 4:
                             system("cls");
-                            printf("\t\tAtividade Complementar\n");
-                            printf("Você nao Possui Atividades Cadastradas\n");
+                            printf("\tAtividade Complementar\n");
+                            printf("Voce Nao Possui Atividades Cadastradas\n");
                             scanf("%d", &escolhas);
                             break;
 
@@ -335,8 +359,6 @@ int main()
 
         case 3:
 
-
-        
             int novasenha;
             int novasenha1;
             system("cls");
@@ -360,16 +382,15 @@ int main()
                 }
                 i++;
             }
-            
 
             if (login == 2)
             {
-               if (senha != senhas[i])
-               {
+                if (senha != senhas[i])
+                {
                     printf("Senha Errada\n");
                     scanf("%d", &escolhas);
-               }
-               
+                }
+
                 else
                 {
                     if (novasenha != novasenha1)
@@ -378,7 +399,7 @@ int main()
                         printf("Senha Errada\n");
                         scanf("%d", &escolhas);
                     }
-                    
+
                     else
                     {
                         system("cls");
